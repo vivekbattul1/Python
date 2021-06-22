@@ -1,0 +1,126 @@
+Day-1_code_examples:
+=====================
+
+5. Printing to the console in Python
+==>
+print("Hello World!")
+
+
+6. Printing
+==>
+print("Day 1 - Python Print Function")
+print("The function is declared like this:")
+print("print('what to print')")
+
+
+
+7. String Manipulation and and Code Intelligence
+==>
+print("Hello World!\nHello World!")    #\n adds new line
+
+print("Hello" + " " + "Vivek")         #space between 2 seprated string
+
+
+8.[Interactive coding Exercise] Debugging Practice
+==>
+Example Output
+When you run your program, it should print the following:
+
+challenge:
+==========
+Day 1 - String Manipulation
+String Concatenation is done with the "+" sign.
+e.g. print("Hello " + "world")
+New lines can be created with a backslash and n.
+
+code:
+=====
+print("Day 1 - String Manipulation")
+print('String Concatenation is done with the "+" sign.')
+print('e.g. print("Hello " + "world")')
+print("New lines can be created with a backslash and n.")
+
+
+
+9. The Python input function
+==>
+
+#input() will get user input in console
+#Then print() will print the word "hello" and the user input
+print("Hello " + input("What is your Name?\n") + "!")
+
+
+
+
+10. [Interactive Coding Exercise] Input Function
+==>
+
+Write a program that prints the number of characters in a user's name. 
+You might need to Google for a function that calculates the length of a string.
+
+e.g.
+https://www.google.com/search?q=how+to+get+the+length+of+a+string+in+python+stack+overflow
+Warning. Your program should work for different inputs. e.g. any name that you input.
+
+
+ANS:
+#This code prints the number of characters in a user's name.
+print( len( input("What is your name? ") ) )
+
+
+#Notes
+#If input was "Jack"
+#1st: print(len("Jack"))
+#2nd: print(4)
+
+
+
+11. Python Variables
+==>
+
+name = "Jack"
+print(name)
+
+name = "Angela"
+print(name)
+
+
+name = input("What is your name?")
+length = len(name)
+print(length)
+
+
+
+12.[ Interactive Coding Exercise ] Variables
+Write a program that switches the values stored in the variables a and b. 
+==>
+ANS:
+
+
+a = input("a: ")
+b = input("b: ")
+
+c = a
+a = b
+b = c
+
+print("a: " + a)
+print("b: " + b)
+
+
+
+14. Day 1 Project: Band Name Generator
+==>
+
+#Band-name-generator
+#1. Create a greeting for your program.
+print("Welcome to the Band Name Generator")
+#2. Ask the user for the city that they grew up in.
+city_name = input("What's the name of the city you grew up in?\n")
+#3. Ask the user for the name of a pet.
+pet_name = input("What's your pet's name?\n")
+#4. Combine the name of their city and pet and show them their band name.
+print("Your Band name could be " + city_name + " " + pet_name)
+
+
+
